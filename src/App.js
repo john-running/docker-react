@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          To the things themselves!
         </p>
         <a
           className="App-link"
@@ -16,6 +16,15 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+        </a>
+        <p>&nbsp;</p>
+        <a
+          className="App-link"
+          href="https://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get Bent
         </a>
       </header>
     </div>
