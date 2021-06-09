@@ -1,0 +1,13 @@
+.submitButton {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: CornflowerBlue;
+  color: white;
+  margin-top: 5px;
+}
+
+label{
+  color: CornflowerBlue;
+  font-size: 1.4em;
+
+}
