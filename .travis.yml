@@ -4,10 +4,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t jrunning/docker-react -f Dockerfile.dev . 
+  - docker build -t jrunning/docker-react -f Dockerfile . 
 
-script:
-  - docker run -e CI=true jrunning/docker-react npm run test
+# script:
+#   - docker run -e CI=true jrunning/docker-react npm run test
 
 deploy:
   provider: elasticbeanstalk
